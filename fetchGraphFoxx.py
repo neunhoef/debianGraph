@@ -5,7 +5,7 @@ from pyArango.graph import *
 from asciitree import *
 
 conn = Connection(username="root", password="")
-db = conn["ddependencyGrahp"]
+db = conn["dependencyGraph"]
 
 mountPoint = sys.argv[1]
 startNode = sys.argv[2]

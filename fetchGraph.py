@@ -6,7 +6,7 @@ from asciitree import *
 
 conn = Connection(username="root", password="")
 
-db = conn["ddependencyGrahp"]
+db = conn["dependencyGraph"]
 
 if not db.hasGraph('debian_dependency_graph'):
     raise Exception("didn't find the debian dependency graph, please import first!")
