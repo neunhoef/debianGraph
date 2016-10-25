@@ -537,7 +537,7 @@ Now you know how to work with ArangoDB.
 
 Working with the dependency graph
 =================================
-*The script leans on the above steps having created `ddependencyGrahp` and imported the graph into it.*
+*The script leans on the above steps having created `dependencyGraph` and imported the graph into it.*
 
 We use `asciitree` in python to visualize the results of our query; Install it using
 
@@ -608,7 +608,7 @@ kanyremote
 
 Foxx Service
 ============
-*The script leans on the above steps having created `ddependencyGrahp` and imported the graph into it.*
+*The script leans on the above steps having created `dependencyGraph` and imported the graph into it.*
 
 PyArango doesn't offer a convenient layer for foxx services (yet). Though we can reuse parts of its infrastructure.
 
